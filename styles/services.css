@@ -1,0 +1,29 @@
+.services {
+  margin-top: 2.6em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.6rem;
+  text-align: center;
+}
+
+.service {
+  padding: 2em;
+  color: #fff;
+  background: #9b9ad0;
+  border-radius: 0.8rem;
+}
+
+.service:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.service > h2 {
+  margin-top: 0.6em;
+  margin-bottom: 0.4em;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.icon > img {
+  max-width: 6.2rem;
+}
