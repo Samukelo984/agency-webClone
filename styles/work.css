@@ -1,0 +1,42 @@
+.portfolio {
+  margin-top: 1.1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item {
+  position: relative;
+  width: 18.7rem;
+  height: 18.7rem;
+  margin: 0.3em;
+}
+
+.item > img {
+  width: 100%;
+  height: 100%;
+}
+
+.action {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.item:hover .action {
+  opacity: 1;
+}
+
+.action > a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+}
