@@ -1,0 +1,32 @@
+.logo {
+  position: absolute;
+  top: 2rem;
+  left: 6.2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  z-index: 10;
+}
+
+.navigation {
+  display: none;
+}
+
+.index-sectiona {
+  height: 100vh;
+  padding: 6.2em;
+  display: flex;
+  align-items: center;
+}
+
+.home-img {
+  height: 110%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.home-content {
+  position: relative;
+  max-width: 37.5rem;
+  z-index: 10;
+}

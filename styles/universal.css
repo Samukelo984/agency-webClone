@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --background-color: #f60f20;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #111;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+p {
+  margin: 1.1em 0 0.6em;
+  font-size: 1.1rem;
+}
+/* UNIVERSAL CLASSES */
+.toggle {
+  position: fixed;
+  width: 3.7rem;
+  height: 3.7rem;
+  top: 0;
+  right: 0;
+  background: var(--background-color) url(../assets/menu.png);
+  background-size: 2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 20;
+  cursor: pointer;
+}
+
+.btn {
+  padding: 0.6em 2em;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background: var(--background-color);
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: scale(0.9);
+}
